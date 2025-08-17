@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0">
+    <servlet>
+        <servlet-name>CGPAServlet</servlet-name>
+        <servlet-class>com.example.cgpacalculator.servlet.CGPAServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CGPAServlet</servlet-name>
+        <url-pattern>/calculate</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
